@@ -1,5 +1,5 @@
 # HTML Parser
-Web application to parse website and retirve followings informations
+Web application to parse website and retrieve following informations
 
 - HTML Version
 - Page Title
@@ -31,8 +31,8 @@ curl http://localhost:8080?url="https://gmail.com"
 curl http://localhost:8080?url="http://www.google.com
 ```
 
-Please make sure web application not running on host machine before running in docker.
-Command to check whether web application running on port 8080
+Please make sure the web application is not running on the host machine before running in docker.
+Command to check whether web application running on port 8080.
 ```
 netstat -nlp |grep 8080
 ```
