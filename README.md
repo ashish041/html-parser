@@ -23,7 +23,7 @@ Command to run web application in docker
 make docker
 ```
 
-Command to generate output
+Command to call endpoint and generate output
 
 ```
 curl http://localhost:8080?url="yahoo.com"
